@@ -1,0 +1,28 @@
+@import url(./font.css);
+
+/* CUSTOM PROPS */
+:root{
+    --orange:#FF7500;
+    --white:#fff;
+    --dark-blue:#252420;
+    --roboto:'Roboto';
+    --robotCondensed:'RobotoCondensed';
+}
+/* GLOBAL STYLES */
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.container{
+    max-width: 1130px;
+    width: 100%;
+    padding: 0px 15px;
+    margin: auto;
+}
